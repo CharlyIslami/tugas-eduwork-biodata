@@ -38,7 +38,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.intro-text .btn {
+.intro-text .btn{
   display: inline-block;
   background-color: #0066cc;
   color: white;
@@ -46,6 +46,12 @@ body {
   text-decoration: none;
   margin-top: 1rem;
   border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.intro-text .btn:hover {
+  background-color: #005bb5;
 }
 
 .intro-image img {
